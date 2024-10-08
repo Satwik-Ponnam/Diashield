@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/curvy_button.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Solid color for the button background -->
+    <solid android:color="#343434" /> <!-- Change this color to your desired button color -->
+
+    <!-- Corner radius for rounded edges -->
+    <corners android:radius="90dp" /> <!-- Adjust this value for more or less curviness -->
+
+    <!-- Optional: Add padding for inner content -->
+    <padding
+        android:left="16dp"
+        android:top="10dp"
+        android:right="16dp"
+        android:bottom="10dp" />
+
+</shape>

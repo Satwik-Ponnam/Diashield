@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4A5ABD"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Diashield"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:padding="20dp"
+        />
+
+    <Button
+        android:id="@+id/btnHeartRate"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_above="@id/btnRespiratoryRate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/round_button_hm"
+        android:text="Heart Rate "
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btnRespiratoryRate"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/round_button_rm"
+        android:text="Respiratory Rate "
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tvHeartRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnRespiratoryRate"
+        android:layout_alignStart="@id/btnRespiratoryRate"
+        android:layout_marginTop="20dp"
+        android:fontFamily="casual"
+        android:text="Heart Rate : --"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvRespiratoryRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvHeartRate"
+        android:layout_alignStart="@id/btnRespiratoryRate"
+        android:layout_marginTop="10dp"
+        android:fontFamily="casual"
+        android:text="Respiratory Rate : --"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnSymptoms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvRespiratoryRate"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:text="Symptoms"
+        android:background="@drawable/curvy_button"
+        android:textColor="@android:color/white"
+        />
+
+
+</RelativeLayout>
